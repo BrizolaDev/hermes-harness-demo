@@ -1,0 +1,12 @@
+# OMP Project Configuration
+agents:
+  - /workspace/.hermes-omp/profiles/dev/agents
+skills:
+  - /workspace/.hermes-omp/profiles/dev/skills
+rules:
+  - /workspace/.hermes-omp/profiles/dev/rules
+modelRoles:
+  default: opencode-go/deepseek-v4-flash
+  smol: opencode-go/mimo-v2-pro
+  slow: opencode-go/deepseek-v4-pro
+  plan: opencode-go/deepseek-v4-pro
